@@ -1,0 +1,15 @@
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\bin\Debug\net8.0\FTDNG.Contracts.deps.json
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\bin\Debug\net8.0\FTDNG.Contracts.dll
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\bin\Debug\net8.0\FTDNG.Contracts.pdb
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\bin\Debug\net8.0\FTDNG.SharedKernel.dll
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\bin\Debug\net8.0\FTDNG.SharedKernel.pdb
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.csproj.AssemblyReference.cache
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.AssemblyInfoInputs.cache
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.AssemblyInfo.cs
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.csproj.CoreCompileInputs.cache
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Co.0ABEFD7F.Up2Date
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.dll
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\refint\FTDNG.Contracts.dll
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.pdb
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\ref\FTDNG.Contracts.dll

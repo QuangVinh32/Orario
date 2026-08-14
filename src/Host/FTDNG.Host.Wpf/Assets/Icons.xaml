@@ -1,0 +1,50 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--
+      ================= BỘ ICON SVG (native, không cần NuGet) =================
+      Mỗi icon là một Geometry lấy từ thuộc tính d="..." của file SVG (viewBox 0 0 24 24).
+      Cách thêm icon mới:
+        1. Mở file .svg, copy chuỗi trong <path d="....">.
+        2. Dán vào một <Geometry x:Key="Ic_Ten">...</Geometry> bên dưới.
+      Icon nào CHƯA có → dùng {StaticResource Ic_Placeholder} (ô vuông + dấu ?).
+      Kích thước/màu do Style "TbIcon" trong MainWindow quyết định (Path.Stretch=Uniform).
+    -->
+
+    <!-- Placeholder: ô vuông bo góc + dấu ? để biết icon còn thiếu -->
+    <Geometry x:Key="Ic_Placeholder">M4 4h16v16H4z M9 9a3 3 0 1 1 4.5 2.6c-.9.5-1.5 1-1.5 2.4h-2c0-2 .9-2.8 1.9-3.4a1 1 0 1 0-1.4-1.3zM11 16h2v2h-2z</Geometry>
+
+    <!-- ===== File ===== -->
+    <Geometry x:Key="Ic_New">M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm3 18H7V4h6v5h4v11z</Geometry>
+    <Geometry x:Key="Ic_Open">M10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2z</Geometry>
+    <Geometry x:Key="Ic_Save">M17 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7l-4-4zm-5 16a3 3 0 1 1 0-6 3 3 0 0 1 0 6zM15 9H5V5h10v4z</Geometry>
+    <Geometry x:Key="Ic_Print">M19 8H5a3 3 0 0 0-3 3v6h4v4h12v-4h4v-6a3 3 0 0 0-3-3zm-3 11H8v-5h8v5zm3-7a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM18 3H6v4h12V3z</Geometry>
+
+    <!-- ===== Edit ===== -->
+    <Geometry x:Key="Ic_Undo">M12.5 8c-2.65 0-5.05.99-6.9 2.6L2 7v9h9l-3.62-3.62A7.5 7.5 0 0 1 19.5 15.5l2.36-.78A10 10 0 0 0 12.5 8z</Geometry>
+    <Geometry x:Key="Ic_Redo">M18.4 10.6A9.97 9.97 0 0 0 11.5 8a10 10 0 0 0-9.36 6.72l2.36.78A7.5 7.5 0 0 1 16.62 12.38L13 16h9V7l-3.6 3.6z</Geometry>
+
+    <!-- ===== Cỡ chữ ===== -->
+    <Geometry x:Key="Ic_FontLarger">M2 20l4.5-13h2.3L13.3 20h-2.4l-1-3.1H5.3L4.3 20H2zm4-5.1h3.4L7.7 9.6 6 14.9zM17 9v3h-3v2h3v3h2v-3h3v-2h-3V9h-2z</Geometry>
+    <Geometry x:Key="Ic_FontSmaller">M2 20l4.5-13h2.3L13.3 20h-2.4l-1-3.1H5.3L4.3 20H2zm4-5.1h3.4L7.7 9.6 6 14.9zM14 12h8v2h-8z</Geometry>
+
+    <!-- ===== Căn lề ===== -->
+    <Geometry x:Key="Ic_AlignLeft">M3 4h18v2H3zM3 9h12v2H3zM3 14h18v2H3zM3 19h12v2H3z</Geometry>
+    <Geometry x:Key="Ic_AlignCenter">M3 4h18v2H3zM6 9h12v2H6zM3 14h18v2H3zM6 19h12v2H6z</Geometry>
+    <Geometry x:Key="Ic_AlignRight">M3 4h18v2H3zM9 9h12v2H9zM3 14h18v2H3zM9 19h12v2H9z</Geometry>
+
+    <!-- ===== Lịch / cập nhật ===== -->
+    <Geometry x:Key="Ic_Today">M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zM7 12h5v5H7z</Geometry>
+    <Geometry x:Key="Ic_Refresh">M17.65 6.35A8 8 0 1 0 19.73 14h-2.08A6 6 0 1 1 12 6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z</Geometry>
+    <Geometry x:Key="Ic_CalendarSync">M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7v-2H5V10h14v2h2V6a2 2 0 0 0-2-2zm0 4H5V6h14v2zm-.5 6l2.5 2.5-1.4 1.4-1.1-1.1V19a3 3 0 0 1-3 3v-1.5a1.5 1.5 0 0 0 1.5-1.5v-2.7l-1.1 1.1L14 16z</Geometry>
+
+    <!-- ===== Lọc / xóa ===== -->
+    <Geometry x:Key="Ic_Filter">M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z</Geometry>
+    <Geometry x:Key="Ic_Trash">M6 19a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z</Geometry>
+
+    <!-- ================= CÁC ICON CÒN THIẾU (fake tạm = placeholder) =================
+         Đổi thành geometry riêng khi bạn có SVG. Hiện trỏ chung vào Ic_Placeholder.
+         ungray, create-mode, select-mode, rollup, move-successor,
+         toggle-select, split-screen, change-symbol, hide-holidays -->
+
+</ResourceDictionary>

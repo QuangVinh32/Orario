@@ -1,0 +1,22 @@
+<UserControl x:Class="FTDNG.Modules.Notifier.Wpf.Views.NotifierPanelView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Margin="12,8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,6">
+            <TextBlock Text="Notifier module — BottomPanel" FontWeight="Bold" VerticalAlignment="Center" />
+            <TextBlock Margin="12,0,0,0" Foreground="#0062ff" VerticalAlignment="Center"
+                       Text="{Binding Count, StringFormat=Đã nhận: {0} sự kiện}" />
+            <Button Content="Gửi Ping → Sample" Margin="16,0,0,0" Padding="8,2"
+                    Click="OnSendPingClick" />
+        </StackPanel>
+
+        <ListBox Grid.Row="1" ItemsSource="{Binding Logs}"
+                 FontFamily="Consolas" FontSize="12" BorderThickness="0"
+                 Background="Transparent" MaxHeight="70" />
+    </Grid>
+</UserControl>

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>FTDNG.Modules.Sample.Wpf</RootNamespace>
+    <AssemblyName>FTDNG.Modules.Sample.Wpf</AssemblyName>
+    <!-- Module demo: chứng minh pipeline Host (discover -> DI -> UiRegistry -> EventBus). -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\FTDNG.SharedKernel\FTDNG.SharedKernel.csproj" />
+    <ProjectReference Include="..\..\..\Shared\FTDNG.Contracts\FTDNG.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

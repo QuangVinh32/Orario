@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <clipPath id="boxClip">
+      <rect x="0" y="72" width="128" height="20" rx="4"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Biểu tượng Căn lề (Các dòng kẻ văn bản khép sát vào nhau hơn) -->
+  <path d="M 40 36 L 88 36 M 48 44 L 80 44 M 40 52 L 88 52 M 48 60 L 80 60" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Hộp xanh được đẩy lên sát biểu tượng hơn và bo góc rx=4 -->
+  <rect x="0" y="72" width="128" height="20" rx="4" fill="#0062ff"/>
+  
+  <!-- Các vạch trắng (được cập nhật Y-4 để khớp với hộp xanh mới) -->
+  <g clip-path="url(#boxClip)">
+    <path d="M -16 104 L 16 72 M 0 104 L 32 72 M 16 104 L 48 72 M 32 104 L 64 72 M 48 104 L 80 72 M 64 104 L 96 72 M 80 104 L 112 72 M 96 104 L 128 72 M 112 104 L 144 72 M 128 104 L 160 72" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Viền đen của hộp xanh cũng được bo góc rx=4 -->
+  <rect x="1" y="72" width="126" height="20" rx="4" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
+</svg>

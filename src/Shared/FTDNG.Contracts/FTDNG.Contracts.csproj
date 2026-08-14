@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>FTDNG.Contracts</RootNamespace>
+    <!-- Contracts phải UI-neutral: KHÔNG reference System.Windows/WPF, KHÔNG implementation. -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+      Chỉ tham chiếu abstraction DI (không phải toàn bộ container) để IFtdngModule
+      có thể nhận IServiceCollection mà vẫn giữ Contracts nhẹ và UI-free.
+    -->
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FTDNG.SharedKernel\FTDNG.SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>

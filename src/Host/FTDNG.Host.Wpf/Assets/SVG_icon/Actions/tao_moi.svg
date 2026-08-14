@@ -1,0 +1,37 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <rect id="blueBox" x="48" y="64" width="72" height="32" />
+    <g id="asteriskBlob">
+      <polygon points="43,64 53,64 49,24 47,24"/>
+      <polygon points="43,64 53,64 49,104 47,104"/>
+      <polygon points="48,59 48,69 8,65 8,63"/>
+      <polygon points="48,59 48,69 88,65 88,63"/>
+      <polygon points="46,62 50,66 76,36"/>
+      <polygon points="46,62 50,66 20,92"/>
+      <polygon points="46,66 50,62 20,36"/>
+      <polygon points="46,66 50,62 76,92"/>
+    </g>
+    <clipPath id="boxClip">
+      <rect x="48" y="64" width="72" height="32"/>
+    </clipPath>
+  </defs>
+
+  <!-- SILHOUETTE BLOB: Viền đen ngoài cùng 2px (bằng nét 4px dưới đáy) -->
+  <g fill="#000000" stroke="#000000" stroke-width="4" stroke-linejoin="round">
+    <use href="#blueBox"/>
+    <use href="#asteriskBlob"/>
+  </g>
+
+  <!-- CHI TIẾT TRONG: Viền 1px -->
+  <use href="#blueBox" fill="#0062ff" stroke="#000000" stroke-width="1" stroke-linejoin="round"/>
+  <!-- Họa tiết sọc trắng của hộp xanh -->
+  <g clip-path="url(#boxClip)">
+    <path d="M 32 96 L 64 64 M 48 96 L 80 64 M 64 96 L 96 64 M 80 96 L 112 64 M 96 96 L 128 64 M 112 96 L 144 64" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- Chặn nét sọc trắng không bị lem ra ngoài bằng một lớp viền 1px mỏng đè lên -->
+  <use href="#blueBox" fill="none" stroke="#000000" stroke-width="1" stroke-linejoin="round"/>
+
+  <!-- Hoa thị (Viền 1px bao quanh, không có viền ở lõi) -->
+  <use href="#asteriskBlob" fill="#000000" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
+  <use href="#asteriskBlob" fill="#facc15" stroke="none" />
+</svg>

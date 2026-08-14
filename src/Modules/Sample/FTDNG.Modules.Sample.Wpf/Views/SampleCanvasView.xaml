@@ -1,0 +1,31 @@
+<UserControl x:Class="FTDNG.Modules.Sample.Wpf.Views.SampleCanvasView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel Margin="24" VerticalAlignment="Top">
+        <TextBlock Text="Sample module — MainCanvas" FontSize="18" FontWeight="Bold" Margin="0,0,0,12" />
+        <TextBlock TextWrapping="Wrap" Foreground="#555" Margin="0,0,0,16"
+                   Text="Nghiệp vụ demo chạy bên trong module. Nhấn nút để phát ProjectOpenedEvent qua EventBus; chính module lắng nghe và cập nhật dòng dưới." />
+        <Button Content="Phát ProjectOpenedEvent" Padding="10,4" HorizontalAlignment="Left"
+                Click="OnRaiseClick" />
+        <TextBlock Margin="0,16,0,0" FontWeight="SemiBold"
+                   Text="{Binding LastMessage}" />
+
+        <Separator Margin="0,20" />
+
+        <TextBlock Text="Demo QueryBus (hỏi-đáp)" FontWeight="Bold" Margin="0,0,0,8" />
+        <TextBlock TextWrapping="Wrap" Foreground="#555" Margin="0,0,0,12"
+                   Text="Nhấn để HỎI một GetGreetingQuery qua QueryBus. Module đã đăng ký làm nguồn trả lời sẽ đáp lại ngay (có kết quả trả về, khác với Event)." />
+        <Button Content="Hỏi GetGreetingQuery" Padding="10,4" HorizontalAlignment="Left"
+                Click="OnAskClick" />
+        <TextBlock Margin="0,16,0,0" FontWeight="SemiBold"
+                   Text="{Binding QueryResult}" />
+
+        <Separator Margin="0,20" />
+
+        <TextBlock Text="Chiều ngược: Sample LẮNG NGHE Notifier" FontWeight="Bold" Margin="0,0,0,8" />
+        <TextBlock TextWrapping="Wrap" Foreground="#555" Margin="0,0,0,12"
+                   Text="Bấm nút &quot;Gửi Ping → Sample&quot; ở panel dưới (module Notifier). Dòng dưới đây sẽ đổi — Sample nghe được mà không biết Notifier là ai." />
+        <TextBlock FontWeight="SemiBold" Foreground="#0062ff"
+                   Text="{Binding PingFromNotifier}" />
+    </StackPanel>
+</UserControl>

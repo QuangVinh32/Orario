@@ -1,0 +1,11 @@
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.SharedKernel\bin\Debug\net8.0\FTDNG.SharedKernel.deps.json
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.SharedKernel\bin\Debug\net8.0\FTDNG.SharedKernel.dll
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.SharedKernel\bin\Debug\net8.0\FTDNG.SharedKernel.pdb
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.SharedKernel\obj\Debug\net8.0\FTDNG.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.SharedKernel\obj\Debug\net8.0\FTDNG.SharedKernel.AssemblyInfoInputs.cache
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.SharedKernel\obj\Debug\net8.0\FTDNG.SharedKernel.AssemblyInfo.cs
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.SharedKernel\obj\Debug\net8.0\FTDNG.SharedKernel.csproj.CoreCompileInputs.cache
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.SharedKernel\obj\Debug\net8.0\FTDNG.SharedKernel.dll
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.SharedKernel\obj\Debug\net8.0\refint\FTDNG.SharedKernel.dll
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.SharedKernel\obj\Debug\net8.0\FTDNG.SharedKernel.pdb
+Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.SharedKernel\obj\Debug\net8.0\ref\FTDNG.SharedKernel.dll

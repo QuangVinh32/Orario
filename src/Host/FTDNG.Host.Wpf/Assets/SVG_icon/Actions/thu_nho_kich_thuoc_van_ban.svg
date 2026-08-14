@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+    <!-- Chữ A bé (Màu xanh, viền đen 2px) -->
+    <!-- Lớp 1: Khối đen dày 12px -->
+    <path d="M 24 104 L 48 48 L 72 104 M 33.5 82 L 62.5 82" fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Lớp 2: Ruột xanh dương dày 8px đè lên -->
+    <path d="M 24 104 L 48 48 L 72 104 M 33.5 82 L 62.5 82" fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Mũi tên hướng xuống (Màu xám, viền đen 2px) -->
+    <polygon points="100,104 120,72 108,72 108,24 92,24 92,72 80,72" fill="#9ca3af" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,359 @@
+<Window x:Class="FTDNG.Host.Wpf.Shell.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
+        Title="{Binding Title}"
+        Height="720" Width="1180"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+
+        <!-- ==== Style icon dạng Geometry (placeholder / icon đơn màu) ==== -->
+        <Style x:Key="TbIcon" TargetType="Path">
+            <Setter Property="Width" Value="18" />
+            <Setter Property="Height" Value="18" />
+            <Setter Property="Stretch" Value="Uniform" />
+            <Setter Property="Fill" Value="#3C3C3C" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+        </Style>
+
+        <!-- ==== Style icon dạng file .svg (SharpVectors, giữ nguyên màu) ==== -->
+        <Style x:Key="TbSvg" TargetType="svgc:SvgViewbox">
+            <Setter Property="Width" Value="20" />
+            <Setter Property="Height" Value="20" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+        </Style>
+
+        <Style x:Key="TbLabel" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="10.5" />
+            <Setter Property="Foreground" Value="#2B2B2B" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0,2,0,0" />
+        </Style>
+
+        <!-- Nút thường -->
+        <Style x:Key="TbButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+            <Setter Property="Padding" Value="7,4" />
+            <Setter Property="Margin" Value="1,0" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Bd"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="3"
+                                Padding="{TemplateBinding Padding}">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="2" />
+                                </Grid.RowDefinitions>
+                                <ContentPresenter Grid.Row="0" HorizontalAlignment="Center" />
+                                <Border Grid.Row="1" Height="2" Margin="2,1,2,0" Background="Transparent" />
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#EFEFEF" />
+                                <Setter TargetName="Bd" Property="BorderBrush" Value="#DADADA" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#E2E2E2" />
+                                <Setter TargetName="Bd" Property="BorderBrush" Value="#C8C8C8" />
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Opacity" Value="0.4" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Nút trạng thái bật/tắt (作成可 / 選択可 / 自動更新) -->
+        <Style x:Key="TbToggle" TargetType="ToggleButton">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+            <Setter Property="Padding" Value="7,4" />
+            <Setter Property="Margin" Value="1,0" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ToggleButton">
+                        <Border x:Name="Bd"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="3"
+                                Padding="{TemplateBinding Padding}">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="2" />
+                                </Grid.RowDefinitions>
+                                <ContentPresenter Grid.Row="0" HorizontalAlignment="Center" />
+                                <!-- Gạch chân accent thay cho nền xanh kín -->
+                                <Border x:Name="Accent" Grid.Row="1" Height="2" Margin="2,1,2,0"
+                                        CornerRadius="1" Background="Transparent" />
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#EFEFEF" />
+                                <Setter TargetName="Bd" Property="BorderBrush" Value="#DADADA" />
+                            </Trigger>
+                            <!-- Bật (IsChecked): tô nền xanh + viền xanh như ảnh -->
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#CCE4FF" />
+                                <Setter TargetName="Bd" Property="BorderBrush" Value="#4A90D9" />
+                            </Trigger>
+                            <!-- Bật + rê chuột: xanh đậm hơn chút để thấy phản hồi -->
+                            <MultiTrigger>
+                                <MultiTrigger.Conditions>
+                                    <Condition Property="IsChecked" Value="True" />
+                                    <Condition Property="IsMouseOver" Value="True" />
+                                </MultiTrigger.Conditions>
+                                <Setter TargetName="Bd" Property="Background" Value="#B8D8FF" />
+                                <Setter TargetName="Bd" Property="BorderBrush" Value="#3A80D6" />
+                            </MultiTrigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Window.Resources>
+
+    <DockPanel LastChildFill="True">
+
+        <!-- ============================================================ -->
+        <!-- ==== HEADER: Menu bar (File/Edit/View/... như ảnh) ======== -->
+        <!-- ============================================================ -->
+        <Menu DockPanel.Dock="Top" Padding="2" Background="White">
+            <MenuItem Header="File(_F)">
+                <MenuItem Header="新規作成" Tag="new" Click="OnHeaderCommand" InputGestureText="Ctrl+N" />
+                <MenuItem Header="開く" Tag="open" Click="OnHeaderCommand" InputGestureText="Ctrl+O" />
+                <MenuItem Header="上書き保存" Tag="save" Click="OnHeaderCommand" InputGestureText="Ctrl+S" />
+                <Separator />
+                <MenuItem Header="印刷" Tag="print" Click="OnHeaderCommand" InputGestureText="Ctrl+P" />
+                <Separator />
+                <MenuItem Header="Thoát" Click="OnExitClick" />
+            </MenuItem>
+
+            <MenuItem Header="Edit(_E)">
+                <MenuItem Header="元に戻す" Tag="undo" Click="OnHeaderCommand" InputGestureText="Ctrl+Z" />
+                <MenuItem Header="やり直す" Tag="redo" Click="OnHeaderCommand" InputGestureText="Ctrl+Y" />
+                <Separator />
+                <!-- Command do module đóng góp vào "menu.edit" -->
+                <MenuItem Header="Module commands" ItemsSource="{Binding MenuCommands}">
+                    <MenuItem.ItemContainerStyle>
+                        <Style TargetType="MenuItem">
+                            <Setter Property="Header" Value="{Binding Title}" />
+                            <Setter Property="Command" Value="{Binding Command}" />
+                            <Setter Property="InputGestureText" Value="{Binding InputGestureText}" />
+                        </Style>
+                    </MenuItem.ItemContainerStyle>
+                </MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="View(_V)" />
+            <MenuItem Header="Analysis(_A)" />
+            <MenuItem Header="Baseline(_P)" />
+            <MenuItem Header="URL(_U)" />
+            <MenuItem Header="Tool(_T)" />
+            <MenuItem Header="Help(_H)">
+                <MenuItem Header="バージョン情報" Tag="about" Click="OnHeaderCommand" />
+            </MenuItem>
+        </Menu>
+
+        <!-- ============================================================ -->
+        <!-- ==== HEADER: Toolbar (UiSlot.Toolbar) ===================== -->
+        <!-- ============================================================ -->
+        <Border DockPanel.Dock="Top" Background="White"
+                BorderBrush="#D5D5D5" BorderThickness="0,1,0,1">
+        <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Disabled"
+                      PreviewMouseWheel="OnToolbarWheel">
+        <ToolBarTray Background="White" IsLocked="True">
+            <ToolBar Padding="4,2" OverflowMode="Never" Background="White" Loaded="OnToolBarLoaded">
+                <ToolBar.Resources>
+                    <!-- Đường kẻ dọc ngăn cách nhóm nút -->
+                    <Style TargetType="Separator">
+                        <Setter Property="Margin" Value="5,3" />
+                        <Setter Property="Width" Value="1" />
+                        <Setter Property="Background" Value="#D5D5D5" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Separator">
+                                    <Border Width="1" Background="{TemplateBinding Background}" />
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ToolBar.Resources>
+
+                <!-- Nhóm 1: File -->
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="new" ToolTip="新規作成" Click="OnHeaderCommand">
+                    <StackPanel><svgc:SvgViewbox Style="{StaticResource TbSvg}" Source="/Assets/SVG_icon/Actions/tao_du_an_moi.svg" /><TextBlock Style="{StaticResource TbLabel}" Text="新規作成" /></StackPanel>
+                </ToggleButton>
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="open" ToolTip="開く" Click="OnHeaderCommand">
+                    <StackPanel><svgc:SvgViewbox Style="{StaticResource TbSvg}" Source="/Assets/SVG_icon/Actions/mo_thu_muc.svg" /><TextBlock Style="{StaticResource TbLabel}" Text="開く" /></StackPanel>
+                </ToggleButton>
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="save" ToolTip="上書き保存" Click="OnHeaderCommand">
+                    <StackPanel><Path Style="{StaticResource TbIcon}" Data="{StaticResource Ic_Save}" /><TextBlock Style="{StaticResource TbLabel}" Text="上書き保存" /></StackPanel>
+                </ToggleButton>
+
+                <Separator />
+
+                <!-- Nhóm 2: Undo/Redo -->
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="undo" ToolTip="元に戻す" Click="OnHeaderCommand">
+                    <StackPanel><svgc:SvgViewbox Style="{StaticResource TbSvg}" Source="/Assets/SVG_icon/Actions/back2_trai.svg" /><TextBlock Style="{StaticResource TbLabel}" Text="元に戻す" /></StackPanel>
+                </ToggleButton>
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="redo" ToolTip="やり直す" Click="OnHeaderCommand">
+                    <StackPanel><svgc:SvgViewbox Style="{StaticResource TbSvg}" Source="/Assets/SVG_icon/Actions/back2_phai.svg" /><TextBlock Style="{StaticResource TbLabel}" Text="やり直す" /></StackPanel>
+                </ToggleButton>
+
+                <Separator />
+
+                <!-- Nhóm 3: cỡ chữ -->
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="font-larger" ToolTip="文字大きく" Click="OnHeaderCommand">
+                    <StackPanel><svgc:SvgViewbox Style="{StaticResource TbSvg}" Source="/Assets/SVG_icon/Actions/tang_kich_thuoc_van_ban.svg" /><TextBlock Style="{StaticResource TbLabel}" Text="文字大きく" /></StackPanel>
+                </ToggleButton>
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="font-smaller" ToolTip="文字小さく" Click="OnHeaderCommand">
+                    <StackPanel><svgc:SvgViewbox Style="{StaticResource TbSvg}" Source="/Assets/SVG_icon/Actions/thu_nho_kich_thuoc_van_ban.svg" /><TextBlock Style="{StaticResource TbLabel}" Text="文字小さく" /></StackPanel>
+                </ToggleButton>
+
+                <Separator />
+
+                <!-- Nhóm 4: In -->
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="print" ToolTip="印刷" Click="OnHeaderCommand">
+                    <StackPanel><Path Style="{StaticResource TbIcon}" Data="{StaticResource Ic_Print}" /><TextBlock Style="{StaticResource TbLabel}" Text="印刷" /></StackPanel>
+                </ToggleButton>
+
+                <Separator />
+
+                <!-- Nhóm 5: Hôm nay / Grey -->
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="today" ToolTip="今日へ" Click="OnHeaderCommand">
+                    <StackPanel><Path Style="{StaticResource TbIcon}" Data="{StaticResource Ic_Today}" /><TextBlock Style="{StaticResource TbLabel}" Text="今日へ" /></StackPanel>
+                </ToggleButton>
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="ungray" ToolTip="グレー解除" Click="OnHeaderCommand">
+                    <StackPanel><Path Style="{StaticResource TbIcon}" Data="{StaticResource Ic_Placeholder}" /><TextBlock Style="{StaticResource TbLabel}" Text="グレー解除" /></StackPanel>
+                </ToggleButton>
+
+                <Separator />
+
+                <!-- Nhóm 6: Căn lề -->
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="align-left" ToolTip="左揃え" Click="OnHeaderCommand">
+                    <StackPanel><svgc:SvgViewbox Style="{StaticResource TbSvg}" Source="/Assets/SVG_icon/Actions/can_trai.svg" /><TextBlock Style="{StaticResource TbLabel}" Text="左揃え" /></StackPanel>
+                </ToggleButton>
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="align-center" ToolTip="中央揃え" Click="OnHeaderCommand">
+                    <StackPanel><svgc:SvgViewbox Style="{StaticResource TbSvg}" Source="/Assets/SVG_icon/Actions/can_giua.svg" /><TextBlock Style="{StaticResource TbLabel}" Text="中央揃え" /></StackPanel>
+                </ToggleButton>
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="align-right" ToolTip="右揃え" Click="OnHeaderCommand">
+                    <StackPanel><svgc:SvgViewbox Style="{StaticResource TbSvg}" Source="/Assets/SVG_icon/Actions/can_phai.svg" /><TextBlock Style="{StaticResource TbLabel}" Text="右揃え" /></StackPanel>
+                </ToggleButton>
+
+                <Separator />
+
+                <!-- Nhóm 7: Trạng thái bật (nền xanh như ảnh) -->
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="create-mode" IsChecked="True" ToolTip="作成可" Click="OnHeaderCommand">
+                    <StackPanel><svgc:SvgViewbox Style="{StaticResource TbSvg}" Source="/Assets/SVG_icon/Actions/tao_moi.svg" /><TextBlock Style="{StaticResource TbLabel}" Text="作成可" /></StackPanel>
+                </ToggleButton>
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="select-mode" IsChecked="True" ToolTip="選択可" Click="OnHeaderCommand">
+                    <StackPanel><svgc:SvgViewbox Style="{StaticResource TbSvg}" Source="/Assets/SVG_icon/Actions/show_constraint.svg" /><TextBlock Style="{StaticResource TbLabel}" Text="選択可" /></StackPanel>
+                </ToggleButton>
+
+                <Separator />
+
+                <!-- Nhóm 8: Rollup / xóa dòng trống -->
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="rollup" ToolTip="ロールアップ" Click="OnHeaderCommand">
+                    <StackPanel><svgc:SvgViewbox Style="{StaticResource TbSvg}" Source="/Assets/SVG_icon/Actions/rollup.svg" /><TextBlock Style="{StaticResource TbLabel}" Text="ロールアップ" /></StackPanel>
+                </ToggleButton>
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="delete-blank-rows" ToolTip="空白の行を削除" Click="OnHeaderCommand">
+                    <StackPanel><svgc:SvgViewbox Style="{StaticResource TbSvg}" Source="/Assets/SVG_icon/Actions/collapse_vertical.svg" /><TextBlock Style="{StaticResource TbLabel}" Text="空白の行を削除" /></StackPanel>
+                </ToggleButton>
+
+                <Separator />
+
+                <!-- Nhóm 9: Tự động cập nhật (bật, nền xanh) -->
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="auto-update" IsChecked="True" ToolTip="自動更新" Click="OnHeaderCommand">
+                    <StackPanel><svgc:SvgViewbox Style="{StaticResource TbSvg}" Source="/Assets/SVG_icon/Actions/tu_dong_cap_nhat.svg" /><TextBlock Style="{StaticResource TbLabel}" Text="自動更新" /></StackPanel>
+                </ToggleButton>
+
+                <Separator />
+
+                <!-- Nhóm 10: các thao tác lịch/bar -->
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="move-successor" ToolTip="後続移動" Click="OnHeaderCommand">
+                    <StackPanel><Path Style="{StaticResource TbIcon}" Data="{StaticResource Ic_Placeholder}" /><TextBlock Style="{StaticResource TbLabel}" Text="後続移動" /></StackPanel>
+                </ToggleButton>
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="toggle-select" ToolTip="選択切換" Click="OnHeaderCommand">
+                    <StackPanel><Path Style="{StaticResource TbIcon}" Data="{StaticResource Ic_Placeholder}" /><TextBlock Style="{StaticResource TbLabel}" Text="選択切換" /></StackPanel>
+                </ToggleButton>
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="split-screen" ToolTip="スクリーン分割" Click="OnHeaderCommand">
+                    <StackPanel><Path Style="{StaticResource TbIcon}" Data="{StaticResource Ic_Placeholder}" /><TextBlock Style="{StaticResource TbLabel}" Text="スクリーン分割" /></StackPanel>
+                </ToggleButton>
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="calendar-sync" ToolTip="カレンダー同期" Click="OnHeaderCommand">
+                    <StackPanel><Path Style="{StaticResource TbIcon}" Data="{StaticResource Ic_CalendarSync}" /><TextBlock Style="{StaticResource TbLabel}" Text="カレンダー同期" /></StackPanel>
+                </ToggleButton>
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="filter-bars" ToolTip="バー絞込" Click="OnHeaderCommand">
+                    <StackPanel><Path Style="{StaticResource TbIcon}" Data="{StaticResource Ic_Filter}" /><TextBlock Style="{StaticResource TbLabel}" Text="バー絞込" /></StackPanel>
+                </ToggleButton>
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="change-symbol" ToolTip="シンボル変更" Click="OnHeaderCommand">
+                    <StackPanel><Path Style="{StaticResource TbIcon}" Data="{StaticResource Ic_Placeholder}" /><TextBlock Style="{StaticResource TbLabel}" Text="シンボル変更" /></StackPanel>
+                </ToggleButton>
+                <ToggleButton Style="{StaticResource TbToggle}" Tag="hide-holidays" ToolTip="休み非表示" Click="OnHeaderCommand">
+                    <StackPanel><svgc:SvgViewbox Style="{StaticResource TbSvg}" Source="/Assets/SVG_icon/Actions/collapse_horizontal.svg" /><TextBlock Style="{StaticResource TbLabel}" Text="休み非表示" /></StackPanel>
+                </ToggleButton>
+
+                <Separator />
+
+                <!-- Command/View do module đóng góp vào slot Toolbar (giữ tính mở rộng) -->
+                <ItemsControl ItemsSource="{Binding ToolbarCommands}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate><StackPanel Orientation="Horizontal" /></ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Content="{Binding Title}" Command="{Binding Command}" Margin="2,0" Padding="8,2" />
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                <ItemsControl ItemsSource="{Binding ToolbarViews}" />
+            </ToolBar>
+        </ToolBarTray>
+        </ScrollViewer>
+        </Border>
+
+        <!-- ==== UiSlot.StatusBar ==== -->
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <TextBlock Text="{Binding StatusText}" />
+            </StatusBarItem>
+            <StatusBarItem>
+                <ItemsControl ItemsSource="{Binding StatusBarViews}" />
+            </StatusBarItem>
+        </StatusBar>
+
+        <!-- ==== UiSlot.BottomPanel ==== -->
+        <Border DockPanel.Dock="Bottom" BorderBrush="#DDD" BorderThickness="0,1,0,0"
+                MinHeight="90" Background="#FAFAFA">
+            <ItemsControl ItemsSource="{Binding BottomPanelViews}" />
+        </Border>
+
+        <!-- ==== UiSlot.LeftPanel ==== -->
+        <Border DockPanel.Dock="Left" Width="280" BorderBrush="#DDD" BorderThickness="0,0,1,0"
+                Background="#FCFCFC">
+            <ItemsControl ItemsSource="{Binding LeftPanelViews}" />
+        </Border>
+
+        <!-- ==== UiSlot.MainCanvas (vùng còn lại) ==== -->
+        <Grid Background="White">
+            <ItemsControl ItemsSource="{Binding MainCanvasViews}" />
+        </Grid>
+
+    </DockPanel>
+</Window>

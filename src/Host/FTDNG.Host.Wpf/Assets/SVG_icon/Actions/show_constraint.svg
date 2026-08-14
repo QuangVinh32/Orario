@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+    <!-- Hộp bên trái (Màu xanh dương) - Sát lề trái -->
+    <rect x="0" y="24" width="40" height="40" fill="#0062ff" rx="0"/>
+    <!-- Hai đường sọc đỏ bên trong -->
+    <rect x="0" y="25" width="34" height="6" fill="#ef4444"/>
+    <rect x="0" y="39" width="34" height="6" fill="#ef4444"/>
+    <!-- Viền hộp trái (Kéo dài ra ngoài màn hình để khuyết cạnh trái) -->
+    <path d="M0 24 L40 24 L40 64 L0 64" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
+    
+    <!-- Hộp bên phải (Màu xanh lá) - Sát lề phải -->
+    <rect x="88" y="76" width="40" height="40" fill="#84cc16" rx="0"/>
+    <!-- Viền hộp phải (Kéo dài ra ngoài màn hình để khuyết cạnh phải) -->
+    <path d="M128 76 L88 76 L88 116 L128 116" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
+    
+    <!-- Đường nối (Finish to Start) -->
+    <path d="M40 44 L64 44 L64 96 L76 96" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
+    
+    <!-- Mũi tên chỉ vào hộp bên phải -->
+    <polygon points="88,96 76,88 76,104" fill="#000000"/>
+</svg>

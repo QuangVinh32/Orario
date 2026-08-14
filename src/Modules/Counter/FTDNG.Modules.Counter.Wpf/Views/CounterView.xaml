@@ -1,0 +1,18 @@
+<UserControl x:Class="FTDNG.Modules.Counter.Wpf.Views.CounterView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel Margin="24" VerticalAlignment="Top">
+        <TextBlock Text="Counter module — MainCanvas" FontSize="18" FontWeight="Bold" Margin="0,0,0,12" />
+        <TextBlock TextWrapping="Wrap" Foreground="#555" Margin="0,0,0,16"
+                   Text="Module tối giản: chỉ đếm số lần bấm. Minh họa luồng module → Host mà không cần EventBus/QueryBus." />
+
+        <TextBlock FontSize="28" FontWeight="Bold" Foreground="#FF6600"
+                   Text="{Binding Count, StringFormat=Số lần bấm: {0}}" />
+
+        <StackPanel Orientation="Horizontal" Margin="0,16,0,0">
+            <Button Content="Bấm +1" Padding="12,5" Click="OnIncreaseClick" />
+            <Button Content="Bấm -1" Padding="12,5" Margin="10,0,0,0" Click="OnDecreaseClick" />
+            <Button Content="Reset" Padding="12,5" Margin="10,0,0,0" Click="OnResetClick" />
+        </StackPanel>
+    </StackPanel>
+</UserControl>

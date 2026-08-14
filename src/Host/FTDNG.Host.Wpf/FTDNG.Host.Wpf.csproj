@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>FTDNG.Host.Wpf</RootNamespace>
+    <AssemblyName>FTDNG.Host.Wpf</AssemblyName>
+
+    <!-- Quản lý phiên bản (Mục 5.2). Nhãn người dùng giữ "Beta 0.0.0" suốt giai đoạn Beta. -->
+    <Version>0.0.0-beta</Version>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+    <FileVersion>0.0.0.0</FileVersion>
+    <InformationalVersion>0.0.0-beta</InformationalVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
+    <!-- Render trực tiếp file .svg trong WPF (giữ nguyên màu/stroke/clip-path). -->
+    <PackageReference Include="SharpVectors.Wpf" Version="1.8.4" />
+  </ItemGroup>
+
+  <!-- Các file .svg được nhúng dạng Resource để load qua pack URI trong XAML. -->
+  <ItemGroup>
+    <Resource Include="Assets\SVG_icon\**\*.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\FTDNG.SharedKernel\FTDNG.SharedKernel.csproj" />
+    <ProjectReference Include="..\..\Shared\FTDNG.Contracts\FTDNG.Contracts.csproj" />
+  </ItemGroup>
+
+  <!--
+    Danh sách module được NẠP ĐỘNG. Host KHÔNG reference output assembly của module
+    (ReferenceOutputAssembly=false) => không có coupling compile-time vào implementation.
+    Ta chỉ đảm bảo module được build trước, rồi copy DLL vào thư mục "Modules/" cạnh Host
+    để ModuleCatalog quét lúc runtime qua interface IFtdngModule.
+  -->
+  <!-- Danh sách module nạp động: thêm module mới chỉ cần 1 dòng ở đây. -->
+  <ItemGroup>
+    <FtdngModuleProject Include="..\..\Modules\Sample\FTDNG.Modules.Sample.Wpf\FTDNG.Modules.Sample.Wpf.csproj" />
+    <FtdngModuleProject Include="..\..\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\FTDNG.Modules.Notifier.Wpf.csproj" />
+    <FtdngModuleProject Include="..\..\Modules\Counter\FTDNG.Modules.Counter.Wpf\FTDNG.Modules.Counter.Wpf.csproj" />
+  </ItemGroup>
+
+  <!-- Reference để đảm bảo thứ tự build, nhưng KHÔNG lấy output assembly (không coupling compile-time). -->
+  <ItemGroup>
+    <ProjectReference Include="@(FtdngModuleProject)"
+                      ReferenceOutputAssembly="false"
+                      Private="false" />
+  </ItemGroup>
+
+  <Target Name="CopyFtdngModules" AfterTargets="Build">
+    <MSBuild Projects="@(FtdngModuleProject)"
+             Targets="Build"
+             Properties="Configuration=$(Configuration)">
+      <Output TaskParameter="TargetOutputs" ItemName="_FtdngModuleOutputs" />
+    </MSBuild>
+    <Copy SourceFiles="@(_FtdngModuleOutputs)"
+          DestinationFolder="$(OutDir)Modules"
+          SkipUnchangedFiles="true" />
+    <Message Importance="high" Text="[FTDNG] Copied module assemblies to $(OutDir)Modules" />
+  </Target>
+
+</Project>

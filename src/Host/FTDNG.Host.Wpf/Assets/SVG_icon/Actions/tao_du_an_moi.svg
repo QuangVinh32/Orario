@@ -1,0 +1,59 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+    <defs>
+        <!-- Document outline (Without the fold line) -->
+        <path id="docBody" d="M 28 16 L 76 16 L 104 44 L 104 112 A 4 4 0 0 1 100 116 L 28 116 A 4 4 0 0 1 24 112 L 24 20 A 4 4 0 0 1 28 16 Z" />
+        <circle id="plusBadge" cx="104" cy="104" r="20" />
+        
+        <clipPath id="miniTask1">
+            <rect x="32" y="44" width="28" height="12" rx="2"/>
+        </clipPath>
+        <clipPath id="miniTask2">
+            <rect x="68" y="64" width="28" height="12" rx="2"/>
+        </clipPath>
+        <clipPath id="miniTask3">
+            <rect x="40" y="84" width="24" height="12" rx="2"/>
+        </clipPath>
+    </defs>
+
+    <!-- SILHOUETTE BLOB: Viền đen bao ngoài toàn bộ icon (Mở rộng 2px ra ngoài) -->
+    <g fill="#000000" stroke="#000000" stroke-width="4" stroke-linejoin="round">
+        <use href="#docBody"/>
+        <use href="#plusBadge"/>
+    </g>
+
+    <!-- CHI TIẾT TRONG: Dùng stroke-width=1 -->
+    <!-- Nền Tài Liệu -->
+    <use href="#docBody" fill="#FFFFFF" stroke="#000000" stroke-width="1" stroke-linejoin="round"/>
+    
+    <!-- Nếp gấp góc phải -->
+    <path d="M 76 16 L 76 40 A 4 4 0 0 0 80 44 L 104 44 Z" fill="#d1d5db" stroke="#000000" stroke-width="1" stroke-linejoin="round"/>
+    
+    <!-- ================= TASK 1 ================= -->
+    <rect x="32" y="44" width="28" height="12" rx="2" fill="#0062ff"/>
+    <g clip-path="url(#miniTask1)">
+        <path d="M 28 56 L 40 44 M 36 56 L 48 44 M 44 56 L 56 44 M 52 56 L 64 44 M 60 56 L 72 44" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <rect x="32" y="44" width="28" height="12" rx="2" fill="none" stroke="#000000" stroke-width="1"/>
+    
+    <!-- Đường Link Task 1 -> Task 2 -->
+    <path d="M 60 50 L 64 50 L 64 70 L 68 70" fill="none" stroke="#000000" stroke-width="1" stroke-linejoin="round"/>
+    
+    <!-- ================= TASK 2 ================= -->
+    <rect x="68" y="64" width="28" height="12" rx="2" fill="#0062ff"/>
+    <g clip-path="url(#miniTask2)">
+        <path d="M 64 76 L 76 64 M 72 76 L 84 64 M 80 76 L 92 64 M 88 76 L 100 64 M 96 76 L 108 64" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <rect x="68" y="64" width="28" height="12" rx="2" fill="none" stroke="#000000" stroke-width="1"/>
+    
+    <!-- ================= TASK 3 ================= -->
+    <rect x="40" y="84" width="24" height="12" rx="2" fill="#0062ff"/>
+    <g clip-path="url(#miniTask3)">
+        <path d="M 36 96 L 48 84 M 44 96 L 56 84 M 52 96 L 64 84 M 60 96 L 72 84" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <rect x="40" y="84" width="24" height="12" rx="2" fill="none" stroke="#000000" stroke-width="1"/>
+
+    <!-- Huy hiệu Dấu Cộng -->
+    <use href="#plusBadge" fill="#22c55e" stroke="#000000" stroke-width="1"/>
+    <!-- Dấu cộng trắng -->
+    <path d="M 104 92 L 104 116 M 92 104 L 116 104" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+</svg>
