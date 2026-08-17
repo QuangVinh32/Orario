@@ -95,19 +95,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
+    "C:\\Users\\trcuo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Modules\\Sample\\FTDNG.Modules.Sample.Wpf\\FTDNG.Modules.Sample.Wpf.csproj",
+      "projectUniqueName": "D:\\New folder\\Orario\\src\\Modules\\Sample\\FTDNG.Modules.Sample.Wpf\\FTDNG.Modules.Sample.Wpf.csproj",
       "projectName": "FTDNG.Modules.Sample.Wpf",
-      "projectPath": "Z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Modules\\Sample\\FTDNG.Modules.Sample.Wpf\\FTDNG.Modules.Sample.Wpf.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "Z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Modules\\Sample\\FTDNG.Modules.Sample.Wpf\\obj\\",
+      "projectPath": "D:\\New folder\\Orario\\src\\Modules\\Sample\\FTDNG.Modules.Sample.Wpf\\FTDNG.Modules.Sample.Wpf.csproj",
+      "packagesPath": "C:\\Users\\trcuo\\.nuget\\packages\\",
+      "outputPath": "D:\\New folder\\Orario\\src\\Modules\\Sample\\FTDNG.Modules.Sample.Wpf\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\trcuo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
@@ -119,11 +119,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Shared\\FTDNG.Contracts\\FTDNG.Contracts.csproj": {
-              "projectPath": "z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Shared\\FTDNG.Contracts\\FTDNG.Contracts.csproj"
+            "D:\\New folder\\Orario\\src\\Shared\\FTDNG.Contracts\\FTDNG.Contracts.csproj": {
+              "projectPath": "D:\\New folder\\Orario\\src\\Shared\\FTDNG.Contracts\\FTDNG.Contracts.csproj"
             },
-            "z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Shared\\FTDNG.SharedKernel\\FTDNG.SharedKernel.csproj": {
-              "projectPath": "z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Shared\\FTDNG.SharedKernel\\FTDNG.SharedKernel.csproj"
+            "D:\\New folder\\Orario\\src\\Shared\\FTDNG.SharedKernel\\FTDNG.SharedKernel.csproj": {
+              "projectPath": "D:\\New folder\\Orario\\src\\Shared\\FTDNG.SharedKernel\\FTDNG.SharedKernel.csproj"
             }
           }
         }
@@ -161,7 +161,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.423/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.424/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

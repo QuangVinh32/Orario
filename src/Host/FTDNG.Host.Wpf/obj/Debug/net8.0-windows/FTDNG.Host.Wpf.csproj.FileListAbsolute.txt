@@ -39,3 +39,45 @@ z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\
 z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\SharpVectors.Model.dll
 z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\SharpVectors.Rendering.Wpf.dll
 z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\SharpVectors.Runtime.Wpf.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\FTDNG.Host.Wpf.exe
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\FTDNG.Host.Wpf.deps.json
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\FTDNG.Host.Wpf.runtimeconfig.json
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\FTDNG.Host.Wpf.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\FTDNG.Host.Wpf.pdb
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Debug.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\SharpVectors.Converters.Wpf.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\SharpVectors.Core.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\SharpVectors.Css.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\SharpVectors.Dom.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\SharpVectors.Model.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\SharpVectors.Rendering.Wpf.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\SharpVectors.Runtime.Wpf.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\FTDNG.Contracts.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\FTDNG.SharedKernel.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\FTDNG.SharedKernel.pdb
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\bin\Debug\net8.0-windows\FTDNG.Contracts.pdb
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\FTDNG.Host.Wpf.csproj.AssemblyReference.cache
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\Assets\Icons.baml
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\Shell\MainWindow.baml
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\App.baml
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\Shell\MainWindow.g.cs
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\App.g.cs
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\FTDNG.Host.Wpf_MarkupCompile.cache
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\FTDNG.Host.Wpf.g.resources
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\FTDNG.Host.Wpf.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\FTDNG.Host.Wpf.AssemblyInfoInputs.cache
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\FTDNG.Host.Wpf.AssemblyInfo.cs
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\FTDNG.Host.Wpf.csproj.CoreCompileInputs.cache
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\FTDNG.Host.Wpf.sourcelink.json
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\FTDNG.Ho.9E7DD53E.Up2Date
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\FTDNG.Host.Wpf.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\refint\FTDNG.Host.Wpf.dll
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\FTDNG.Host.Wpf.pdb
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\FTDNG.Host.Wpf.genruntimeconfig.cache
+D:\New folder\Orario\src\Host\FTDNG.Host.Wpf\obj\Debug\net8.0-windows\ref\FTDNG.Host.Wpf.dll

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FTDNG.Host.Wpf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0-beta")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0-beta+2ae030df6d5ed186671d30ec05ff3968a4f3dc8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FTDNG.Host.Wpf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FTDNG.Host.Wpf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.0.0.0")]

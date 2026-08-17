@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7/Q2KtmemQ0=",
+  "dgSpecHash": "LN5dBsCJHUE=",
   "success": true,
-  "projectFilePath": "Z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Modules\\Notifier\\FTDNG.Modules.Notifier.Wpf\\FTDNG.Modules.Notifier.Wpf.csproj",
+  "projectFilePath": "D:\\New folder\\Orario\\src\\Modules\\Notifier\\FTDNG.Modules.Notifier.Wpf\\FTDNG.Modules.Notifier.Wpf.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+    "C:\\Users\\trcuo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
   ],
   "logs": []
 }

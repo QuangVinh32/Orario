@@ -19,3 +19,25 @@ z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\
 z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\refint\FTDNG.Modules.Counter.Wpf.dll
 z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Counter.Wpf.pdb
 z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\ref\FTDNG.Modules.Counter.Wpf.dll
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\bin\Debug\net8.0-windows\FTDNG.Modules.Counter.Wpf.deps.json
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\bin\Debug\net8.0-windows\FTDNG.Modules.Counter.Wpf.dll
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\bin\Debug\net8.0-windows\FTDNG.Modules.Counter.Wpf.pdb
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\bin\Debug\net8.0-windows\FTDNG.Contracts.dll
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\bin\Debug\net8.0-windows\FTDNG.SharedKernel.dll
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\bin\Debug\net8.0-windows\FTDNG.SharedKernel.pdb
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\bin\Debug\net8.0-windows\FTDNG.Contracts.pdb
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Counter.Wpf.csproj.AssemblyReference.cache
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\Views\CounterView.baml
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\Views\CounterView.g.cs
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Counter.Wpf_MarkupCompile.cache
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Counter.Wpf.g.resources
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Counter.Wpf.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Counter.Wpf.AssemblyInfoInputs.cache
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Counter.Wpf.AssemblyInfo.cs
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Counter.Wpf.csproj.CoreCompileInputs.cache
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Counter.Wpf.sourcelink.json
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\FTDNG.Mo.F6CF287C.Up2Date
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Counter.Wpf.dll
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\refint\FTDNG.Modules.Counter.Wpf.dll
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Counter.Wpf.pdb
+D:\New folder\Orario\src\Modules\Counter\FTDNG.Modules.Counter.Wpf\obj\Debug\net8.0-windows\ref\FTDNG.Modules.Counter.Wpf.dll

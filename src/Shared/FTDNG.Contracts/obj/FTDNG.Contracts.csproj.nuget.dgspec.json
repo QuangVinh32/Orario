@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Shared\\FTDNG.Contracts\\FTDNG.Contracts.csproj": {}
+    "D:\\New folder\\Orario\\src\\Shared\\FTDNG.Contracts\\FTDNG.Contracts.csproj": {}
   },
   "projects": {
-    "z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Shared\\FTDNG.Contracts\\FTDNG.Contracts.csproj": {
+    "D:\\New folder\\Orario\\src\\Shared\\FTDNG.Contracts\\FTDNG.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Shared\\FTDNG.Contracts\\FTDNG.Contracts.csproj",
+        "projectUniqueName": "D:\\New folder\\Orario\\src\\Shared\\FTDNG.Contracts\\FTDNG.Contracts.csproj",
         "projectName": "FTDNG.Contracts",
-        "projectPath": "z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Shared\\FTDNG.Contracts\\FTDNG.Contracts.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Shared\\FTDNG.Contracts\\obj\\",
+        "projectPath": "D:\\New folder\\Orario\\src\\Shared\\FTDNG.Contracts\\FTDNG.Contracts.csproj",
+        "packagesPath": "C:\\Users\\trcuo\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\Orario\\src\\Shared\\FTDNG.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\trcuo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Shared\\FTDNG.SharedKernel\\FTDNG.SharedKernel.csproj": {
-                "projectPath": "z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Shared\\FTDNG.SharedKernel\\FTDNG.SharedKernel.csproj"
+              "D:\\New folder\\Orario\\src\\Shared\\FTDNG.SharedKernel\\FTDNG.SharedKernel.csproj": {
+                "projectPath": "D:\\New folder\\Orario\\src\\Shared\\FTDNG.SharedKernel\\FTDNG.SharedKernel.csproj"
               }
             }
           }
@@ -68,21 +68,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.423/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.424/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Shared\\FTDNG.SharedKernel\\FTDNG.SharedKernel.csproj": {
+    "D:\\New folder\\Orario\\src\\Shared\\FTDNG.SharedKernel\\FTDNG.SharedKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Shared\\FTDNG.SharedKernel\\FTDNG.SharedKernel.csproj",
+        "projectUniqueName": "D:\\New folder\\Orario\\src\\Shared\\FTDNG.SharedKernel\\FTDNG.SharedKernel.csproj",
         "projectName": "FTDNG.SharedKernel",
-        "projectPath": "z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Shared\\FTDNG.SharedKernel\\FTDNG.SharedKernel.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "z:\\99. Thư Mục Cá Nhân\\25.FT25 Vinh\\Cấu trúc folder dự án\\Orario\\src\\Shared\\FTDNG.SharedKernel\\obj\\",
+        "projectPath": "D:\\New folder\\Orario\\src\\Shared\\FTDNG.SharedKernel\\FTDNG.SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\trcuo\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\Orario\\src\\Shared\\FTDNG.SharedKernel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\trcuo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -126,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.423/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.424/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

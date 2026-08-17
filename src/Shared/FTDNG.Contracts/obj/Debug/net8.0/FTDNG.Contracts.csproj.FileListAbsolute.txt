@@ -13,3 +13,19 @@ Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\
 Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\refint\FTDNG.Contracts.dll
 Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.pdb
 Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\ref\FTDNG.Contracts.dll
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\bin\Debug\net8.0\FTDNG.Contracts.deps.json
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\bin\Debug\net8.0\FTDNG.Contracts.dll
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\bin\Debug\net8.0\FTDNG.Contracts.pdb
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\bin\Debug\net8.0\FTDNG.SharedKernel.dll
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\bin\Debug\net8.0\FTDNG.SharedKernel.pdb
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.csproj.AssemblyReference.cache
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.AssemblyInfoInputs.cache
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.AssemblyInfo.cs
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.csproj.CoreCompileInputs.cache
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.sourcelink.json
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Co.0ABEFD7F.Up2Date
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.dll
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\refint\FTDNG.Contracts.dll
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\FTDNG.Contracts.pdb
+D:\New folder\Orario\src\Shared\FTDNG.Contracts\obj\Debug\net8.0\ref\FTDNG.Contracts.dll

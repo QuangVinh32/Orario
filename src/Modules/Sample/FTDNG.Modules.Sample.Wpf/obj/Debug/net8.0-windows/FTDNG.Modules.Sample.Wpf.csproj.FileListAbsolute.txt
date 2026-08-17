@@ -21,3 +21,27 @@ Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\
 Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\refint\FTDNG.Modules.Sample.Wpf.dll
 Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Sample.Wpf.pdb
 Z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\ref\FTDNG.Modules.Sample.Wpf.dll
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\bin\Debug\net8.0-windows\FTDNG.Modules.Sample.Wpf.deps.json
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\bin\Debug\net8.0-windows\FTDNG.Modules.Sample.Wpf.dll
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\bin\Debug\net8.0-windows\FTDNG.Modules.Sample.Wpf.pdb
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\bin\Debug\net8.0-windows\FTDNG.Contracts.dll
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\bin\Debug\net8.0-windows\FTDNG.SharedKernel.dll
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\bin\Debug\net8.0-windows\FTDNG.SharedKernel.pdb
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\bin\Debug\net8.0-windows\FTDNG.Contracts.pdb
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Sample.Wpf.csproj.AssemblyReference.cache
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\Views\SampleCanvasView.baml
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\Views\SampleLeftView.baml
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\Views\SampleCanvasView.g.cs
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\Views\SampleLeftView.g.cs
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Sample.Wpf_MarkupCompile.cache
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Sample.Wpf.g.resources
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Sample.Wpf.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Sample.Wpf.AssemblyInfoInputs.cache
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Sample.Wpf.AssemblyInfo.cs
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Sample.Wpf.csproj.CoreCompileInputs.cache
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Sample.Wpf.sourcelink.json
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\FTDNG.Mo.0279D25A.Up2Date
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Sample.Wpf.dll
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\refint\FTDNG.Modules.Sample.Wpf.dll
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Sample.Wpf.pdb
+D:\New folder\Orario\src\Modules\Sample\FTDNG.Modules.Sample.Wpf\obj\Debug\net8.0-windows\ref\FTDNG.Modules.Sample.Wpf.dll

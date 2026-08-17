@@ -19,3 +19,25 @@ z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\
 z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\refint\FTDNG.Modules.Notifier.Wpf.dll
 z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Notifier.Wpf.pdb
 z:\99. Thư Mục Cá Nhân\25.FT25 Vinh\Cấu trúc folder dự án\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\ref\FTDNG.Modules.Notifier.Wpf.dll
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\bin\Debug\net8.0-windows\FTDNG.Modules.Notifier.Wpf.deps.json
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\bin\Debug\net8.0-windows\FTDNG.Modules.Notifier.Wpf.dll
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\bin\Debug\net8.0-windows\FTDNG.Modules.Notifier.Wpf.pdb
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\bin\Debug\net8.0-windows\FTDNG.Contracts.dll
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\bin\Debug\net8.0-windows\FTDNG.SharedKernel.dll
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\bin\Debug\net8.0-windows\FTDNG.SharedKernel.pdb
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\bin\Debug\net8.0-windows\FTDNG.Contracts.pdb
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Notifier.Wpf.csproj.AssemblyReference.cache
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\Views\NotifierPanelView.baml
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\Views\NotifierPanelView.g.cs
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Notifier.Wpf_MarkupCompile.cache
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Notifier.Wpf.g.resources
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Notifier.Wpf.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Notifier.Wpf.AssemblyInfoInputs.cache
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Notifier.Wpf.AssemblyInfo.cs
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Notifier.Wpf.csproj.CoreCompileInputs.cache
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Notifier.Wpf.sourcelink.json
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\FTDNG.Mo.F5EA0673.Up2Date
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Notifier.Wpf.dll
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\refint\FTDNG.Modules.Notifier.Wpf.dll
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\FTDNG.Modules.Notifier.Wpf.pdb
+D:\New folder\Orario\src\Modules\Notifier\FTDNG.Modules.Notifier.Wpf\obj\Debug\net8.0-windows\ref\FTDNG.Modules.Notifier.Wpf.dll
